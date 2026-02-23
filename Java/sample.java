@@ -6,6 +6,6 @@ public class sample{
         int num=sc.nextInt();
         int num1=sc.nextInt();
         System.out.println("the sum of the number is "+(num+num1));
-        
+        //now edited thid file
     }
 }
