@@ -44,7 +44,7 @@ class cpu{
         System.out.println("RAM details");
         System.out.println("mommory:"+memmory);
         System.out.println("manufacturer name:"+manufacturer);
-        System.out.println("**************************");
+        System.out.println("*********************");
 
         }
     }
