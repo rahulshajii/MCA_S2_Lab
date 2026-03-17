@@ -4,16 +4,12 @@ class employee{
     String eName;
     Float eSalary;
 void read(Scanner sc){
-
   System.out.println("Enter the Employee number:");
   eNo = sc.nextInt();
   System.out.println("Enter the Employee Name:");
   eName=sc.next();
   System.out.println("Enter the Employee Salary:");
   eSalary=sc.nextFloat();
-}
-void search(){
-
 }
 public static void main(String[] args){
     int n,s,temp=0;
@@ -36,8 +32,7 @@ public static void main(String[] args){
         break;
     }
    }
-
-   if(flag==1){
+    if(flag==1){
     System.out.println("Employee FOUND!!");
     System.out.println("Employee Number:"+obj[temp].eNo);
     System.out.println("Employee Name:"+obj[temp].eName);
@@ -46,8 +41,5 @@ public static void main(String[] args){
    else{
     System.out.println("NOT FOUND!!");
    }
-   
-   
-
 }
 }
