@@ -37,21 +37,18 @@ class menu_string {
             System.out.println(" Not found !!!");
         }
     }
-
 //to upper case
 void uppercase(){
     System.out.println("enter the string:");
     String s8=sc.next();
         System.out.println(s8.toUpperCase());
     } 
-
 //to lower case
 void lowercase(){
     System.out.println("enter the string:");
     String s7=sc.next();
         System.out.println(s7.toLowerCase());
     } 
-
 //length
 void length() {
     System.out.println(" enter the string:");
@@ -64,7 +61,7 @@ void con(){
     String s1=sc.next();
     System.out.println(" enter the second string:");
     String s2=sc.next();
-    System.out.println(s1.concat(s2));  
+    System.out.println("output:"+s1.concat(s2));  
 }
 //main function
 public static void main(String [] args) 
@@ -74,7 +71,7 @@ Scanner sc=new Scanner(System.in);
 while(true){
    int ch;
     System.out.println("***********************");
-    System.out.println("Menu Diven");
+    System.out.println("Menu Driven");
     System.out.println("1.String Read:");
     System.out.println("2.Search for String:");
     System.out.println("3.to upper Case:");
@@ -102,7 +99,6 @@ while(true){
         default:System.out.println("invalid!!");
               break;
     }
-
 }
 }
 }

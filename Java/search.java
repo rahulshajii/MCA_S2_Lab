@@ -4,7 +4,7 @@ String [] str;
 Scanner sc=new Scanner(System.in);
 int x,pos;
 void read(int n){
-     x=n;
+    x=n;
     str=new String [n];
     System.out.println("Enter String Elements:");
     for (int i=0;i<x;i++)
@@ -25,7 +25,7 @@ void read(int n){
         }                                         
     }
         if (flag==1){
-         System.out.println(" word " + search + " found at postion " + (pos+1));
+         System.out.println(" word " + search + " found at position " + (pos+1));
         }
         else{
             System.out.println(" Not found !!!");
