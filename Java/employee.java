@@ -21,7 +21,7 @@ public static void main(String[] args){
     for (int i=0;i<n;i++){
         obj[i]=new employee();
         obj[i].read(sc);
-     }
+    }
    System.out.println("Enter the Employee number to search:");
    s =sc.nextInt();
    for(int i=0;i<n;i++){
